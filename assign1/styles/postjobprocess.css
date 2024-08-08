@@ -1,0 +1,36 @@
+body {
+    font-family: cursive;
+    font-size: 1.3rem;
+    background-color: #fdf2e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #45260A;
+    text-align: center;
+}
+
+ul {
+    list-style: disc;
+    color: red;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #E67E22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #cf711f;
+
+}

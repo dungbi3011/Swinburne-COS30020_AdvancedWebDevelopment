@@ -1,0 +1,76 @@
+body {
+    font-family: cursive;
+    background-color: #fdf2e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+body h1 {
+    color: #45260A;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    width: 58rem;
+}
+
+form label {
+    display: inline-block;
+    width: 15rem;
+    font-weight: bold;
+}
+
+form input {
+    font-weight: normal;
+    padding: 1rem;
+
+}
+
+form input[type="text"], form select, form textarea {
+    width: 40rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+form input[type="date"] {
+    border-radius: 0.5rem;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    background-color: #E67E22;
+    color: #45260A;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #683c16;
+    color: #cf711f;
+}
+
+p {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+p a {
+    color: #E67E22;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #cf711f;
+}

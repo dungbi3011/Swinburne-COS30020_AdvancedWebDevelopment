@@ -1,0 +1,350 @@
+/* Body part of every page */
+body {
+    font-family: cursive;
+    background-color: #fdf2e9;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 90rem;
+}
+
+/* Home Page (index.php) */
+    .index_info {
+        text-align: center;
+        padding: 2rem;
+        color: #45260A;
+    }
+
+    .index_info p  {
+        font-size: 1.3rem;
+    }
+
+    .index_nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .index_nav a {
+        background-color: #45260A;
+        color: #E67E22;
+        text-align: center;
+        padding: 1rem;
+        width: 20rem;
+        border-radius: 5px;
+    }
+
+    .index_nav a:hover {
+        background-color: #683c16;
+        color: #cf711f;
+    }   
+
+    .index_database {
+        font-size: 1rem;
+    }
+
+/* SignUp Page (signup.php) */
+    .signup h1, .signup h2 {
+        color: #45260A;
+        text-align: center;
+    }
+
+    .signup_database {
+        font-size: 1rem;
+        color: red;
+    }
+
+    .signup form {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        width: 42rem;
+    }
+
+    .signup ul {
+        list-style: disc;
+        color: red;
+    }
+
+    .signup ul li {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .signup label, .signup p {
+        display: block;
+        color: #45260A;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .signup input[type="text"], .signup input[type="email"], .signup input[type="password"] {
+        width: 40rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        border: 1px solid #ccc;
+    }
+
+    .signup input[type="submit"], .signup form input[type="reset"] {
+        background-color: #E67E22;
+        color: #45260A;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .signup input[type="submit"]:hover , .signup input[type="reset"]:hover {
+        background-color: #cf711f;
+    }
+
+    .signup .references {
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .signup a {
+        color: #E67E22;
+        font-weight: bold;
+    }
+
+    .signup a:hover {
+        color: #cf711f;
+        text-decoration: underline;
+    }
+
+/* Login Page (login.php) */
+    .login h1, .login h2 {
+        color: #45260A;
+        text-align: center;
+    }
+
+    .login_database {
+        font-size: 1rem;
+        color: red;
+    }
+
+    .login form {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        width: 42rem;
+    }
+
+    .login .error {
+        color: red;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .login label, .login p {
+        display: block;
+        color: #45260A;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .login input[type="email"], .login input[type="password"] {
+        width: 40rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        border: 1px solid #ccc;
+    }
+
+    .login input[type="submit"], .login form input[type="reset"] {
+        background-color: #E67E22;
+        color: #45260A;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .login input[type="submit"]:hover , .login input[type="reset"]:hover {
+        background-color: #cf711f;
+    }
+
+    .login .references {
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .login a {
+        color: #E67E22;
+        font-weight: bold;
+    }
+
+    .login a:hover {
+        color: #cf711f;
+        text-decoration: underline;
+    }
+
+/* FriendList Page (friendlist.php) */
+    .friendlist h1, .friendlist h2, .friendlist h3 {
+        color: #45260A;
+        text-align: center;
+    }
+
+    .friendlist_database {
+        font-size: 1rem;
+        color: red;
+    }
+
+    .friendlist table {
+        width: 80rem;
+        border-collapse: collapse;
+    }
+
+    .friendlist table, .friendlist th, .friendlist td {
+        border: 1px solid #45260A;
+        text-align: center;
+    }
+
+    .friendlist form {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+
+    .friendlist input[type="submit"] {
+        background-color: #E67E22;
+        color: #45260A;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .friendlist input[type="submit"]:hover {
+        background-color: #cf711f;
+    }
+
+    .friendlist .references {
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .friendlist a {
+        color: #E67E22;
+        font-weight: bold;
+    }
+
+    .friendlist a:hover {
+        color: #cf711f;
+        text-decoration: underline;
+    }
+
+/* FriendAdd Page (friendadd.php) */
+    .friendadd h1, .friendadd h2, .friendadd h3 {
+        color: #45260A;
+        text-align: center;
+    }
+
+    .friendadd_database {
+        font-size: 1rem;
+        color: red;
+    }
+
+    .friendadd table {
+        width: 80rem;
+        border-collapse: collapse;
+    }
+
+    .friendadd table, .friendadd th, .friendadd td {
+        border: 1px solid #45260A;
+        text-align: center;
+    }
+
+    .friendadd form {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+
+    .friendadd input[type="submit"] {
+        background-color: #E67E22;
+        color: #45260A;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .friendadd input[type="submit"]:hover {
+        background-color: #cf711f;
+    }
+
+    .friendadd .references {
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .friendadd a {
+        color: #E67E22;
+        font-weight: bold;
+    }
+
+    .friendadd a:hover {
+        color: #cf711f;
+        text-decoration: underline;
+    }
+
+/*  About Page (about.php)  */
+    .about h1, .about h2, .about h3 {
+        color: #45260A;
+        text-align: center;
+    }
+
+    .about figure {
+        color: #555555;
+        padding: 2rem;
+    }
+    .about figcaption {
+        font-weight: bold;
+        text-align: center;
+    }
+    .about ol {
+        list-style-type: decimal;
+    }
+    .about ul {
+        list-style-type: disc;
+    }           
+
+    .about img {
+        display: block;
+        border: 3px #E67E22 solid;
+        width: 80rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about .references {
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .about .references a {
+        color: #E67E22;
+        font-weight: bold;
+    }
+
+    .about .references a:hover {
+        color: #cf711f;
+        text-decoration: underline;
+    }
